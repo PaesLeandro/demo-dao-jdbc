@@ -10,7 +10,7 @@ public class Department implements Serializable {
 	private Integer idInteger;
 	private String nameString;
 	
-	public Department(Integer idInteger, String nameString) {
+	public Department() {
 		
 		this.idInteger = idInteger;
 		this.nameString = nameString;
@@ -53,6 +53,11 @@ public class Department implements Serializable {
 	@Override
 	public String toString() {
 		return "Departament [idInteger=" + idInteger + ", nameString=" + nameString + "]";
+	}
+
+	public void setId(int int1) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	

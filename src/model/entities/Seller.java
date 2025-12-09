@@ -100,6 +100,11 @@ public class Seller implements Serializable{
 				+ ", birthDate=" + birthDate + ", baseSalaryDouble=" + baseSalaryDouble + ", department=" + department
 				+ "]";
 	}
+
+	public void setId(int i) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 	
